@@ -6,3 +6,5 @@ Bundle-Version: 1.0.0-SNAPSHOT
 -plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
 -plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
 -sass: *
+Private-Package: com.demo.portlet
+Bundle-Activator: com.demo.portlet.HelloActivator

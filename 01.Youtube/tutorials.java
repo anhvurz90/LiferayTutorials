@@ -34,4 +34,13 @@ https://www.youtube.com/watch?v=QzGSAsYnFYM&list=PL_WCPOWW_gJFx8atHLNCGmOc6iVbnx
 	lb bookmark -> list all modules containing 'bookmark'
 	stop { moduleID}
 }
+6.How to resolve Dependency in Gradle {
+	- dependency: org.osgi:org.osgi.core:5.0.0
+	- activator:
+		HelloActivator implements BundleActivator  {
+			public void start(BundleContext) 
+			public void stop(BundleContext)
+		}
+	- bundle: bnd.bnd <- HelloActivator
+}
 
