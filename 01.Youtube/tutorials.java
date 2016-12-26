@@ -26,5 +26,12 @@ https://www.youtube.com/watch?v=QzGSAsYnFYM&list=PL_WCPOWW_gJFx8atHLNCGmOc6iVbnx
 	Add new portlet into a page
 			
 }
-		
+4.Apache Felix GoGo Shell Commands in Liferay7 {
+	telnet localhost 11311
+	lb
+}
+5.Apache Felix Gogo Shell Commands for Out of the box Portlets {
+	lb bookmark -> list all modules containing 'bookmark'
+	stop { moduleID}
+}
 
