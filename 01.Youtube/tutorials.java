@@ -41,6 +41,10 @@ https://www.youtube.com/watch?v=QzGSAsYnFYM&list=PL_WCPOWW_gJFx8atHLNCGmOc6iVbnx
 			public void start(BundleContext) 
 			public void stop(BundleContext)
 		}
-	- bundle: bnd.bnd <- HelloActivator
+	- bundle: bnd.bnd <- HelloActivator	
 }
-
+7.How to Create Liferay 7.0 Bundle using Liferay Workspace {
+	- New: Liferay Workspace: LiferayWork
+		- New: Liferay Module: FirstWithLWS
+			DemoPortlet	
+}
