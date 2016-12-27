@@ -48,3 +48,23 @@ https://www.youtube.com/watch?v=QzGSAsYnFYM&list=PL_WCPOWW_gJFx8atHLNCGmOc6iVbnx
 		- New: Liferay Module: FirstWithLWS
 			DemoPortlet	
 }
+8.How to Create Service Builder in Liferay 7 {
+	- New: Liferay Module
+		Project Template: servicebuilder
+	
+	  ->  service-api, service-service
+	
+		service.xml: {
+			<service-builder package-path="com.employee">
+				<namespace>Aditya</namespace>
+				<entity>
+					<column/>
+					<column/>
+				<entity>
+			</service-builder>
+		}
+		
+		buildService
+		deployService
+}
+
